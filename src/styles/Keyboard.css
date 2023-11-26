@@ -1,0 +1,26 @@
+.keyboard { 
+    display: grid;
+     gap: 10px;
+     }
+   .keyboard-row {
+     display: flex;
+      justify-content: space-between;
+   }
+      button {
+         padding: 8px; 
+         font-size: 1.2em;
+         cursor: pointer;
+          border: none;
+           background-color: rgba(255, 255, 255, 0.436); 
+           color: rgba(0, 0, 0, 0.612); 
+           border-radius: 100%;
+          }
+           button:hover {
+             background-color: #cdcecd;
+             scale: 1.1; 
+            }
+            button:active{
+                background-color: #ffffff;
+                scale: .8; 
+              }
+  

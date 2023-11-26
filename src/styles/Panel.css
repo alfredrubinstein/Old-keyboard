@@ -1,0 +1,9 @@
+.virtual-keyboard { 
+    background-color: #ffffffcc;
+     border: 1px solid #d8d8d8; 
+     padding: 20px; 
+     /* box-shadow: 0 3px 3px rgb(194, 193, 193);  */
+     border-radius: 15px;
+     height: 360px;
+     } 
+ 

@@ -1,0 +1,13 @@
+
+body { 
+    font-family: 'Courier New', monospace;
+     background-color: #bbb9b9; 
+    display: flex;
+     align-items: center; 
+     justify-content: center;
+      height: 100vh;
+       margin: 0; 
+    } 
+        
+
+
