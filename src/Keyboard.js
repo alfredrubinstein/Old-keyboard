@@ -37,7 +37,7 @@ const Keyboard = ({
         <button onClick={enterPressed}>⏎</button>
         <button onClick={changeSize}>📏</button>
         <button onClick={changeColor}>🎨</button>
-        <button onClick={capsLock}>-</button>
+        <button onClick={capsLock}>📋</button>
       </div>
       {keyboardLayout.map((row, rowIndex) => (
         <div key={rowIndex} className="keyboard-row">

@@ -45,8 +45,7 @@ const retrieveFromLocalStorage = () => {
 
 
 
-
-  const handleKeyPress = (key) => {
+const handleKeyPress = (key) => {
     console.log('estas en App en handleKeyPress');
     setInputValue((text) => text + key);
     saveToLocalStorage(setInputValue);
@@ -113,13 +112,16 @@ const retrieveFromLocalStorage = () => {
     };
     
 
-const handleCapsLock = () => {
+const handleCapsLock = (inputValue) => {
   console.log('estas en App en handleCapsLock');
-  const lastInput = retrieveFromLocalStorage(); // Obtener el último valor guardado
+  const inputValue1 = inputValue.toString();
+  navigator.clipboard.writeText(inputValue1);
 
-  if (lastInput !== null) {
-    setInputValue(lastInput); // Asignar el último valor recuperado a inputValue
-  }
+  // const lastInput = retrieveFromLocalStorage(); // Obtener el último valor guardado
+
+  // if (lastInput !== null) {
+  //   setInputValue(lastInput); // Asignar el último valor recuperado a inputValue
+  // }
 };
 
 
